@@ -40,7 +40,7 @@ const InputForm = ({ onSubmit, loading }) => {
         />
       )}
 
-      <form className="p-4 shadow rounded" onSubmit={handleSubmit}>
+      <form className="p-4 " onSubmit={handleSubmit}>
         <div className="flex flex-col gap-5">
           <div>
             <label className="block font-medium text-gray-200">Latitude:</label>

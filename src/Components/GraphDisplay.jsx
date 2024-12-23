@@ -81,7 +81,7 @@ const GraphDisplay = ({ weatherData }) => {
     };
   }, [weatherData]);
 
-  return <canvas ref={chartRef} className='bg-white rounded]'></canvas>;
+  return <canvas ref={chartRef} className='bg-white md:p-4 rounded'></canvas>;
 };
 
 export default GraphDisplay;
